@@ -1,0 +1,156 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Arial',sans-serif;
+    -webkit-font-smoothing:antialiased;
+   
+    color:#999;
+}
+
+
+h1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 0.01vw #fff;
+     animation: bouncing 0.5s ease 0s 3 alternate;
+    
+}
+@keyframes bouncing{
+    /*from{
+        width:20px;
+    }
+    to{
+        width:400px
+    }*/
+    0% {
+        bottom: 0;
+    }
+    100% {
+        bottom:40px;
+    }
+
+}
+h3{
+    color:rgb(241, 246, 239);
+}
+h2{
+    color:rgb(6, 6, 7);
+    margin-top: 5px;
+}
+h3{
+   margin-top: 5px;
+    margin-bottom: px ;
+}
+b{
+    color: rgb(244, 111, 3);
+    font-weight:800;
+    font-size:30px;
+}
+i{
+    color:rgb(248, 251, 251);
+   
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+#quote{
+    text-transform: lowercase;
+    opacity: 0.5;
+    line-height: 120%;
+    font-size: small;
+}
+img{
+    width:20%;height:30%;
+}
+#wrapper{
+    width:100%;
+    height:100vh;
+    position :relative;
+    opacity:0.9;
+    background:url('img/tree1.jpg') no-repeat center center/cover;
+}
+form{
+    background:#fff;
+    width:600px;
+    height:55 px;
+    display:flex;
+    border-radius: 40px 40px 40px;
+}
+form input{
+    flex: 1;
+    border:none;
+    outline:none;
+    width: 50px;
+    height:50px;
+    border-radius: 4px 40px 40px;
+}
+form button{
+    background:#035826;
+    padding:10 px 50px;
+    border :none;
+    outline:none;
+    color:#fff;
+    letter-spacing: 1px;
+    cursor:pointer;
+    width: 80px;
+    height:50px;
+    border-radius: 40px 40px 40px;
+    transition:width 0.5s;
+}
+form button:hover{
+    width:120px;
+}
+form i{
+    align-self:center;
+    padding:10px 20px;
+    color:rgb(12, 56, 17);
+    size: 100%;
+    
+}
+
+h4{
+    padding-top: 15px;
+    color:rgb(70, 72, 73);
+}
+
+h2{
+    font-size:30px;
+    margin-top: 15px;
+     padding-top: 5px;
+    display: flex;
+    transition:font-size  0.1s;
+}
+h2:hover{
+   font-size:40px;
+}
+.scroll-bar{
+    padding:10px 10px 10px;
+    height:300px;
+    width:50%;
+    border:1px solid rgb(16, 1, 1);
+    overflow-y:scroll;
+}
+#logo{
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+#nav{
+   padding-top: 30px;
+   padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
